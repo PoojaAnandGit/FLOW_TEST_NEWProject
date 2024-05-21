@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.flow_test_new.documenttypes:copysd</value>
+    <value name="node_pkg">FLOW_TEST_NEWProject</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">flowadmin</value>
+        <value name="createdByUserId">9fe2810faf9f4e82bb09e5453eeb7afb</value>
+        <number name="createdDate" type="Long">1716303271956</number>
+        <value name="lastModifiedBy">flowadmin</value>
+        <value name="lastModifiedByUserId">9fe2810faf9f4e82bb09e5453eeb7afb</value>
+        <number name="lastModifiedDate" type="Long">1716303275584</number>
+      </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">4ab85de22b4f430fabc8f43a08e3c45d</value>
+    <value name="originURI">books.xsd</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_nsName">fld_2041028534_stage00.projects.fld2085a73163d45215b150b.documenttypes:docTypeRef_bks_BooksForm</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">bks:books</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:books</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">fld_2041028534_stage00.projects.fld2085a73163d45215b150b.documenttypes:docTypeRef_bks_BooksForm</value>
+      </record>
+    </array>
+    <value name="modifiable">false</value>
+    <value name="updateRSD">true</value>
+  </record>
+</Values>
