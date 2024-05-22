@@ -10,12 +10,11 @@
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">flowadmin</value>
         <value name="createdByUserId">9fe2810faf9f4e82bb09e5453eeb7afb</value>
-        <number name="createdDate" type="Long">1716303272032</number>
+        <number name="createdDate" type="Long">1716357593562</number>
         <value name="lastModifiedBy">flowadmin</value>
         <value name="lastModifiedByUserId">9fe2810faf9f4e82bb09e5453eeb7afb</value>
-        <number name="lastModifiedDate" type="Long">1716303506766</number>
+        <number name="lastModifiedDate" type="Long">1716357593562</number>
       </record>
-      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -23,71 +22,36 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">4ab85de22b4f430fabc8f43a08e3c45d</value>
-    <value name="docTypeDomain">a56c2b62581845918ee1dc6cc467870b</value>
+    <value name="schemaDomain">185c18421d8548ff82758264d57e5c99</value>
+    <value name="docTypeDomain">6e0baeb136b9471fb996678441ad91ff</value>
     <value name="originURI">books.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-          <value name="field_usereditable">true</value>
-        </record>
         <value name="is_public">false</value>
         <value name="field_name">@id</value>
-        <value name="field_type">record</value>
+        <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="field_opt">true</value>
         <record name="field_content_type" javaclass="com.wm.util.Values">
           <value name="contentType">1</value>
-          <value name="internalType">instance</value>
-          <value name="ct_class">com.wm.lang.schema.datatypev2.WmString</value>
-          <value name="name">string_customized</value>
-          <array name="parent-ancestors" type="record" depth="1">
-            <record javaclass="com.wm.util.Values">
-              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-              <value name="ncName">anySimpleType</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-              <value name="ncName">anyType</value>
-            </record>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
             <record javaclass="com.wm.util.Values">
               <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
               <value name="ncName">string</value>
             </record>
           </array>
-          <record name="baseType" javaclass="com.wm.util.Values">
-            <record name="whiteSpace" javaclass="com.wm.util.Values">
-              <record name="FacetWSCValue" javaclass="com.wm.util.Values">
-                <value name="cDecimalValue">3</value>
-              </record>
-              <value name="facetFixed">false</value>
-            </record>
-            <value name="contentType">1</value>
-            <value name="internalType">instance</value>
-            <value name="ct_class">com.wm.lang.schema.datatypev2.WmString</value>
-            <value name="dataTypeVersion">dtVersion2</value>
-          </record>
-          <value name="dataTypeVersion">dtVersion2</value>
         </record>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-          <value name="field_usereditable">true</value>
-        </record>
         <value name="is_public">false</value>
         <value name="field_name">author</value>
         <value name="field_type">string</value>
@@ -110,11 +74,6 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-          <value name="field_usereditable">true</value>
-        </record>
         <value name="is_public">false</value>
         <value name="field_name">title</value>
         <value name="field_type">string</value>
@@ -137,11 +96,6 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-          <value name="field_usereditable">true</value>
-        </record>
         <value name="is_public">false</value>
         <value name="field_name">genre</value>
         <value name="field_type">string</value>
@@ -164,11 +118,6 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-          <value name="field_usereditable">true</value>
-        </record>
         <value name="is_public">false</value>
         <value name="field_name">price</value>
         <value name="field_type">string</value>
@@ -191,11 +140,6 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-          <value name="field_usereditable">true</value>
-        </record>
         <value name="is_public">false</value>
         <value name="field_name">pub_date</value>
         <value name="field_type">string</value>
@@ -218,11 +162,6 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-          <value name="field_usereditable">true</value>
-        </record>
         <value name="is_public">false</value>
         <value name="field_name">review</value>
         <value name="field_type">string</value>
@@ -248,7 +187,7 @@
       <value name="ncName">BookForm</value>
     </record>
     <value name="schemaRegistered">true</value>
-    <value name="modifiable">true</value>
+    <value name="modifiable">false</value>
     <value name="updateRSD">true</value>
   </record>
 </Values>
