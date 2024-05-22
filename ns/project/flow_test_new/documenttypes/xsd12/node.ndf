@@ -4,16 +4,16 @@
   <record name="record" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
-    <value name="node_nsName">project.flow_test_new.documenttypes:docTypeRef_bks_BooksForm</value>
+    <value name="node_nsName">project.flow_test_new.documenttypes:xsd12</value>
     <value name="node_pkg">FLOW_TEST_NEWProject</value>
     <record name="node_hints" javaclass="com.wm.util.Values">
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">flowadmin</value>
         <value name="createdByUserId">cbea571a73a14b36bfa409bfe7bc9ab2</value>
-        <number name="createdDate" type="Long">1716385155103</number>
+        <number name="createdDate" type="Long">1716385155073</number>
         <value name="lastModifiedBy">flowadmin</value>
         <value name="lastModifiedByUserId">cbea571a73a14b36bfa409bfe7bc9ab2</value>
-        <number name="lastModifiedDate" type="Long">1716385155103</number>
+        <number name="lastModifiedDate" type="Long">1716385155091</number>
       </record>
     </record>
     <value name="is_public">false</value>
@@ -23,31 +23,24 @@
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
     <value name="schemaDomain">b3e93e013c24430fb88ab327349aa345</value>
-    <value name="docTypeDomain">4835bf7111ee490b94aaaebe3825eb9e</value>
     <value name="originURI">books.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">book</value>
+        <value name="field_name">bks:books</value>
         <value name="field_type">recref</value>
-        <value name="field_dim">1</value>
-        <value name="field_opt">true</value>
+        <value name="field_dim">0</value>
         <value name="nillable">false</value>
+        <value name="field_xmlns">urn:books</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.flow_test_new.documenttypes:docTypeRef_bks_BookForm</value>
+        <value name="rec_ref">project.flow_test_new.documenttypes:docTypeRef_bks_BooksForm</value>
       </record>
     </array>
-    <record name="schemaType" javaclass="com.wm.util.Values">
-      <value name="xmlns">urn:books</value>
-      <value name="ncName">BooksForm</value>
-    </record>
-    <value name="schemaRegistered">true</value>
     <value name="modifiable">false</value>
     <value name="updateRSD">true</value>
   </record>
