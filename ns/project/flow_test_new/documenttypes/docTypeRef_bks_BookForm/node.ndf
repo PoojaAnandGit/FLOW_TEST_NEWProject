@@ -10,10 +10,10 @@
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">flowadmin</value>
         <value name="createdByUserId">9fe2810faf9f4e82bb09e5453eeb7afb</value>
-        <number name="createdDate" type="Long">1716357593562</number>
+        <number name="createdDate" type="Long">1716358314334</number>
         <value name="lastModifiedBy">flowadmin</value>
         <value name="lastModifiedByUserId">9fe2810faf9f4e82bb09e5453eeb7afb</value>
-        <number name="lastModifiedDate" type="Long">1716357593562</number>
+        <number name="lastModifiedDate" type="Long">1716358314334</number>
       </record>
     </record>
     <value name="is_public">false</value>
@@ -22,8 +22,8 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">185c18421d8548ff82758264d57e5c99</value>
-    <value name="docTypeDomain">6e0baeb136b9471fb996678441ad91ff</value>
+    <value name="schemaDomain">53ad2120f9094555bf3ed402d5ecfdc4</value>
+    <value name="docTypeDomain">aa968174b5c1453e8ad54565b06dedd9</value>
     <value name="originURI">books.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
