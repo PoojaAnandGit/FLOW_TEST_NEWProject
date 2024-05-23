@@ -31,7 +31,7 @@
           <record name="field_content_type" javaclass="com.wm.util.Values">
             <record name="length" javaclass="com.wm.util.Values">
               <record name="FLenCValue" javaclass="com.wm.util.Values">
-                <value name="cDecimalValue">5</value>
+                <value name="cDecimalValue">8</value>
               </record>
               <value name="facetFixed">false</value>
             </record>
@@ -102,7 +102,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">flowadmin</value>
-    <value name="lastModifiedDate">1716458654797</value>
+    <value name="lastModifiedDate">1716459494497</value>
     <value name="displayName">e1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -119,11 +119,13 @@
           <value name="serviceName">pub.date:getCurrentDate</value>
           <value name="transformerSupport">true</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
-  <value name="svc_in_validator_options">none</value>
-  <value name="svc_out_validator_options">none</value>
+  <value name="svc_in_validator_options">default</value>
+  <value name="svc_out_validator_options">default</value>
   <value name="auditoption">0</value>
   <null name="auditfields_input"/>
   <null name="auditfields_output"/>
