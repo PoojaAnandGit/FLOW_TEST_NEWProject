@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit/FLOW_TEST_NEWProject
   gitUsername: PoojaAnandGit
   gitBranch: main
+- name: PackagesScenario
+  gitServerName: testInternal
+  gitUrl: https://github.webmethods.io/munb
+  gitUsername: poan
+  gitBranch: branch2
 services:
 - serviceName: project.flow_test_new.integrations:edgeflow1
   packages:
