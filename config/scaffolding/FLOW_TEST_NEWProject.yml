@@ -8,6 +8,7 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: PackagesScenario
+  version: "2.0"
   gitServerName: testInternal
   gitUrl: https://github.webmethods.io/munb
   gitUsername: poan
@@ -25,3 +26,37 @@ services:
   packages:
   - name: FLOW_TEST_NEWProject
     version: "1.0"
+  - name: PackagesScenario
+    version: "2.0"
+- serviceName: ANZ_POCPKg.flows:StringToValues
+  packages:
+  - name: PackagesScenario
+    version: "2.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.873
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.873
+- serviceName: pub.flatFile:convertToValues
+  packages:
+  - name: WmFlatFile
+    version: 10.7.0.0.28
+- serviceName: ANZ_POCPKg.javaservices:addTwoNos
+  packages:
+  - name: PackagesScenario
+    version: "2.0"
+- serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.873
+- serviceName: pub.flatFile:convertToString
+  packages:
+  - name: WmFlatFile
+    version: 10.7.0.0.28
+- serviceName: pub.xml:documentToXMLString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.873
