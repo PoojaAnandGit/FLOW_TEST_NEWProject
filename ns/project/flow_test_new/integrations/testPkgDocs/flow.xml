@@ -8,4 +8,8 @@
 <INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="PackagesScenario" SERVICE="ANZ_POCPKg.flows:StringToValues">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
