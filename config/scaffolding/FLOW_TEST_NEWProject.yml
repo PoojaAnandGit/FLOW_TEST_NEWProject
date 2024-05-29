@@ -18,10 +18,12 @@ services:
   packages:
   - name: FLOW_TEST_NEWProject
     version: "1.0"
+  - name: PackagesScenario
+    version: "2.0"
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.0.0.0.873
+    version: 11.0.0.0.904
 - serviceName: project.flow_test_new.integrations:e1
   packages:
   - name: FLOW_TEST_NEWProject
