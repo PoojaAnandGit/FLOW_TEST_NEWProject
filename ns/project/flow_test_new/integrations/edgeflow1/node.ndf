@@ -123,7 +123,7 @@ sh-5.1$ cat node.ndf
             <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">e123EditedLocally</value>
+          <value name="field_name">e123EditedLocallyDiffUser</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
