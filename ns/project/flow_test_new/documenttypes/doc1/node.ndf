@@ -34,7 +34,7 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">abcd</value>
+        <value name="field_name">abcdEditedLocally</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
