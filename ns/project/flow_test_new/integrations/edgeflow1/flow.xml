@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate">
+<INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
