@@ -46,7 +46,8 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">flowadmin</value>
-    <value name="lastModifiedDate">1716991737857</value>
+    <value name="lastModifiedDate">1717078850660</value>
+    <null name="edgeServer"/>
     <value name="displayName">edgeflow2</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -66,6 +67,21 @@
         <number name="lineNumber" type="Long">1</number>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Date</value>
+          <value name="groupName">date</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">getCurrentDate</value>
+          <value name="serviceName">pub.date:getCurrentDate</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="lineNumber" type="Long">2</number>
       </record>
     </record>
   </record>
