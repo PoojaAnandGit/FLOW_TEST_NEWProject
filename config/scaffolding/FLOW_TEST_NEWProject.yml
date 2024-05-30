@@ -23,7 +23,7 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.0.0.0.904
+    version: 11.0.0.0.922
 - serviceName: project.flow_test_new.integrations:e1
   packages:
   - name: FLOW_TEST_NEWProject
