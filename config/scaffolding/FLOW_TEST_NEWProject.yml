@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.webmethods.io/munb
   gitUsername: poan
   gitBranch: branch2
+- name: OpenWeatherClient
+  gitServerName: test1
+  gitUrl: https://github.com/rahuldemocenter
+  gitUsername: PoojaAnandGit
+  gitBranch: main
 services:
 - serviceName: project.flow_test_new.integrations:edgeflow1
   packages:
