@@ -14,6 +14,7 @@ packages:
   gitUsername: poan
   gitBranch: branch2
 - name: OpenWeatherClient
+  version: "1.0"
   gitServerName: test1
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: PoojaAnandGit
@@ -28,7 +29,7 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.0.0.0.922
+    version: 11.0.0.0.949
 - serviceName: project.flow_test_new.integrations:e1
   packages:
   - name: FLOW_TEST_NEWProject
@@ -89,3 +90,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.922
+- serviceName: project.flow_test_new.integrations:testImportFromZip
+  packages:
+  - name: FLOW_TEST_NEWProject
+    version: "1.0"
+  - name: PackagesScenario
+    version: "2.0"
+  - name: OpenWeatherClient
+    version: "1.0"
