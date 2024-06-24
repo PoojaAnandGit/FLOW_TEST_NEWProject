@@ -14,8 +14,7 @@ packages:
   gitUsername: poan
   gitBranch: branch2
 - name: OpenWeatherClient
-  version: "1.0"
-  gitServerName: test1
+  gitServerName: test2
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: PoojaAnandGit
   gitBranch: main
