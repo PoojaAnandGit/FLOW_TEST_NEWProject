@@ -28,6 +28,11 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
+- name: EdgePkg1
+  gitServerName: testInternal
+  gitUrl: https://github.webmethods.io/hasv
+  gitUsername: poan
+  gitBranch: master
 services:
 - serviceName: project.flow_test_new.integrations:edgeflow1
   packages:
