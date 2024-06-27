@@ -33,6 +33,11 @@ packages:
   gitUrl: https://github.webmethods.io/hasv
   gitUsername: poan
   gitBranch: master
+- name: testPkgUpdate
+  gitServerName: test1
+  gitUrl: https://github.com/PoojaAnandGit
+  gitUsername: PoojaAnandGit
+  gitBranch: main
 services:
 - serviceName: project.flow_test_new.integrations:edgeflow1
   packages:
