@@ -18,6 +18,11 @@ packages:
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: PoojaAnandGit
   gitBranch: main
+- name: OnPremiseISPkg
+  gitServerName: test1
+  gitUrl: https://github.com/radhikaWarrierSAG
+  gitUsername: PoojaAnandGit
+  gitBranch: main
 services:
 - serviceName: project.flow_test_new.integrations:edgeflow1
   packages:
